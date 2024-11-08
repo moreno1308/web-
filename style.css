@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    displat: flex;
+    justify-content: center;
+    align-items: center;
+    main-height: 100vh;
+    font-family: Arial, halvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.decription .photo-profile {
+    border-radius: 50%;
+    marginn-left: 15%;
+    margin-bottom: 20px;
+}
+
+.decription .header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.decription .paragraph {
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links ul li {
+    gap: 5px;
+}
+
+.links ul li a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-botton: 10px;
+}
